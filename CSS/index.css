@@ -1,0 +1,595 @@
+body {
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.nav-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 135px 0px 135px;
+}
+
+.nav-title {
+    display: flex;
+}
+
+.nav-title img {
+    margin-right: 40px;
+}
+
+#check {
+    display: none;
+}
+
+.icons {
+    position: absolute;
+    font-size: 2.8rem;
+    display: none;
+    cursor: pointer;
+    right: 5%;
+}
+
+.nav-section ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav-section li {
+    list-style: none;
+    margin-right: 50px;
+    text-decoration: none;
+    color: #474747;
+}
+
+span {
+    color: rgb(255, 84, 0);
+}
+
+/* banner section */
+.banner {
+    max-width: 1170px;
+    margin: 0px 135px 0px 135px;
+    position: relative;
+
+    height: 447px;
+}
+
+.banner img {
+    position: absolute;
+    margin-top: 30px;
+    max-width: 996px;
+
+}
+
+.banner-description {
+    position: relative;
+    z-index: 2;
+    top: 190px;
+
+    text-align: center;
+    margin: 0;
+}
+
+.banner-title {
+    color: white;
+    font-size: 64px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.banner-parragraph {
+    color: white;
+    font-size: 16px;
+    margin: 0;
+    font-weight: 400;
+}
+
+.custom-select input {
+    width: 100px;
+    height: 27px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.custom-select input placeholder {
+    text-align: center;
+}
+
+.custom-select {
+    width: 510px;
+    background-color: rgba(255, 255, 255, 0.259);
+    margin: 16px auto;
+    height: 45px;
+    border-radius: 5px;
+    padding-top: 13px;
+}
+
+.custom-select select {
+    margin-right: 20px;
+    width: 100px;
+    height: 32px;
+
+}
+
+.btn {
+    width: 100px;
+    height: 33px;
+    background-color: rgb(255, 84, 0);
+    border: 0;
+    border-radius: 5px;
+    color: white;
+}
+
+.fa-solid.fa-magnifying-glass {
+    padding-right: 7px;
+}
+
+/* tour section */
+main {
+    max-width: 1170px;
+    margin: 100px 135px 0px 135px;
+}
+
+.tour-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+}
+
+.popular-title {
+    font-size: 40px;
+}
+
+.popular-paragraph,
+li {
+    font-weight: 400;
+    font-size: 16px
+}
+
+.popular-img img {
+    width: 540px;
+    height: 399px;
+}
+
+ul {
+    padding-left: 13px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* destination */
+
+.destination {
+    text-align: center;
+}
+
+.destination-title {
+    font-weight: 800;
+}
+
+.destination-details {
+    color: rgba(19, 19, 24, 0.7);
+    font-size: 16px;
+    font-weight: 400px;
+}
+
+.vertical-img {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.img-title {
+    position: relative;
+    z-index: 2;
+    top: -200px;
+    color: white;
+    text-align: center;
+    font-size: 28px;
+}
+
+.vertical-img img {
+    width: 492px;
+    height: 300px;
+}
+
+.grid-img {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 15px;
+    height: 286px;
+
+}
+
+/* .grid-img img{
+    width: 100%;
+    height: 100%;
+  } */
+#img1 {
+    width: 325px;
+    height: 286px;
+}
+
+#img2 {
+    width: 412px;
+    height: 286px;
+}
+
+#im3 {
+    width: 228px;
+    height: 286px;
+}
+
+.flex-img {
+    display: grid;
+    grid-template-columns: repeat(2, 400px) 673px;
+
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.flex-img img {
+    width: 100%;
+    height: 100%;
+}
+
+#bandarban {
+    width: 584px;
+}
+
+/* why choose us */
+.why-Choose-us {
+    text-align: center;
+}
+
+.choose {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.hotel-title {
+    margin: 5px;
+    font-size: 24px;
+}
+
+.hotel-details {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.hotel {
+    width: 600px;
+    background-color: rgba(251, 181, 99, 0.05);
+    padding: 15px;
+    margin-top: 30px;
+    margin-right: 20px;
+    border-radius: 16px;
+}
+
+.hotel-destination {
+    width: 600px;
+    background-color: rgba(41, 206, 246, 0.05);
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 16px;
+}
+
+.choose-img {
+    width: 80px;
+    height: 80px;
+}
+
+.price {
+    width: 500px;
+    margin-left: 300px;
+    margin-top: 32px;
+    padding: 15px;
+    background-color: rgba(233, 68, 68, 0.05);
+    border-radius: 16px;
+}
+
+/* News Letter section */
+.news-letter {
+    margin-top: 50px;
+    display: flex;
+}
+
+.letter-form {
+    width: 100%;
+    margin-right: 20px;
+    padding: 20px;
+    border: 2px solid rgb(255, 84, 0);
+    border-radius: 16px;
+}
+
+.letter-form input {
+    width: 100%;
+    height: 10%;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.btn-sub {
+    width: 100%;
+    height: 39px;
+    background-color: rgb(255, 84, 0);
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+::placeholder {
+    padding: 10px;
+}
+
+.letter-img {
+    width: 100%;
+}
+
+.letter-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.discount {
+    background-color: rgb(255, 84, 0);
+    color: white;
+    border-radius: 16px;
+    padding: 18px;
+    width: 20%;
+    position: absolute;
+    transform: rotate(-17deg);
+    left: 842px;
+    top: 3054px;
+}
+
+.discount-title {
+    margin: 0;
+}
+
+/* footer section */
+footer {
+    background-color: rgba(19, 19, 24, 0.05);
+    padding-bottom: 50px;
+
+}
+
+.footer-part {
+    padding-top: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 135px 0px 135px;
+}
+
+.footer-img {
+    margin-right: 10px;
+}
+
+.footer-details {
+    text-align: center;
+    margin: 0;
+}
+
+.social-icon {
+    margin: 20px 135px 0px 580px;
+}
+
+.social-icon i {
+    margin-left: 20px;
+}
+
+.footer-copy {
+    padding-top: 50px;
+    text-align: center;
+}
+
+
+/* responsive  */
+
+/* mobile device  */
+@media screen and (max-width:597px) {
+    .hide {
+        display: none;
+    }
+
+    .nav-section {
+        margin: 0px 20px 0px 20px;
+    }
+
+    #check:checked~.icons #menu-icon {
+        display: none;
+    }
+
+    .icons {
+        display: inline-flex;
+    }
+
+    #close-icon {
+        display: none;
+    }
+
+    #check:checked~.icons #close-icon {
+        display: block;
+    }
+
+    .nav-section ul {
+        display: block;
+        position: absolute;
+        top: 6%;
+        left: 0;
+        width: 100%;
+        height: 0;
+        background-color: blueviolet;
+        overflow: hidden;
+        transition: .3s ease;
+    }
+
+    .nav-section li {
+        display: block;
+        font-size: 1.1rem;
+        margin: 1.5rem 0;
+        text-align: center;
+        color: black;
+    }
+
+    #check:checked~.nav-section ul {
+        height: 17.7rem;
+    }
+
+    .banner {
+        margin: 0px 10px 0 10px;
+        max-width: 1170px;
+        height: 500px;
+    }
+
+    .banner img {
+        width: 100%;
+        height: 485px;
+    }
+
+    .banner-description {
+        top: 138px;
+    }
+
+    .banner-title {
+        font-size: 26px;
+    }
+
+    .custom-select {
+        width: 80%;
+        height: 164px;
+        padding: 20px;
+    }
+
+    .custom-select input {
+        width: 97%;
+    }
+
+    .custom-select select {
+        margin-top: 5px;
+        width: 100%;
+    }
+
+    button {
+        width: 76px;
+    }
+
+    .btn {
+        margin-top: 10px;
+        width: 100%;
+        font-size: 16px;
+
+    }
+
+    main {
+        margin: 10px 30px 10px 30px;
+        ;
+    }
+
+    .tour-section,
+    .news-letter {
+        display: block;
+    }
+
+    .popular-img img {
+        margin-top: 30px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .vertical-img {
+        display: block;
+        height: 100%;
+    }
+
+    .vertical-img img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .destination-im {
+        margin-bottom: 14px;
+        height: 292px;
+    }
+
+    .grid-img img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .flex-img img {
+        width: 100%;
+        height: 100%;
+    }
+
+    #img1,
+    #im3 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .grid-img,
+    .flex-img {
+        grid-template-columns: repeat(1, 1fr);
+        height: 100%;
+    }
+
+    .choose {
+        display: block;
+    }
+
+    .hotel,
+    .hotel-destination {
+        width: 100%;
+    }
+
+    .price {
+
+        margin: 0;
+        width: 98%;
+        margin-top: 20px;
+    }
+
+    .letter-form {
+        width: 94%;
+        margin-bottom: 20px;
+    }
+
+    .letter-form input {
+        height: 30px;
+        margin-top: 10px;
+    }
+
+    footer {
+        margin: 10px 0px 10px 0px;
+        padding: 10px;
+
+    }
+
+    .social-icon {
+        margin: 20px 49px 10px 120px;
+    }
+    .discount {
+        
+        left: 200px;
+        top: 5005px;
+        width: 200px;
+      }
+
+    .hide {
+        display: none;
+    }
+}
